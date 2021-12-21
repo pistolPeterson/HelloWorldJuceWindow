@@ -3,6 +3,7 @@
 //==============================================================================
 MainComponent::MainComponent()
 {
+    addAndMakeVisible(toggleButton);
     setSize (600, 400);
 }
 
@@ -19,11 +20,13 @@ void MainComponent::paint (juce::Graphics& g)
     g.setFont (juce::Font (48.0f));
     g.setColour (juce::Colours::red);
     g.drawText ("Hello, whats up student!", getLocalBounds(), juce::Justification::centred, true);
-}
+}//stopped following tutorial from 34:15 
 
 void MainComponent::resized()
 {
     // This is called when the MainComponent is resized.
     // If you add any child components, this is where you should
     // update their positions.
+    toggleButton.setBounds(10, 10, 30, 30);
+
 }
