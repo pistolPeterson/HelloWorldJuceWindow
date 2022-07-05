@@ -17,7 +17,7 @@ void MainComponent::paint (juce::Graphics& g)
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
-    g.setFont (juce::Font (48.0f));
+    g.setFont (juce::Font (36.0f));
     g.setColour (juce::Colours::red);
     g.drawText ("Hello, whats up student! Time to begine learning audio programming!", getLocalBounds(), juce::Justification::centred, true);
 }//stopped following tutorial from 34:15 
