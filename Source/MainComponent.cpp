@@ -19,7 +19,7 @@ void MainComponent::paint (juce::Graphics& g)
 
     g.setFont (juce::Font (48.0f));
     g.setColour (juce::Colours::red);
-    g.drawText ("Hello, whats up student!", getLocalBounds(), juce::Justification::centred, true);
+    g.drawText ("Hello, whats up student! Time to begine learning audio programming!", getLocalBounds(), juce::Justification::centred, true);
 }//stopped following tutorial from 34:15 
 
 void MainComponent::resized()
